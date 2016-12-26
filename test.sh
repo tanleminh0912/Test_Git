@@ -21,15 +21,9 @@ do
   	 	touch $LINK/$TESTDATE/$DATETIME
    		Output_File=$LINK/$TESTDATE/$DATETIME
 		echo " <!DOCTYPE html>
-			<html>
-			<head>
-			<title>Page Title</title>
 			<script type='text/javascript'>
 				window.open('https://www.google.com.vn/?gfe_rd=cr&ei=HZBbWNGFF-  					Pc8gfH24z4Bw#q=$DATETIME');
 			</script>
-			</head>
-			<body>
-			</body>
 			</html> " > $Output_File
    		sleep 2	
    		a=`expr $a + 1`
