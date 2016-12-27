@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-assahndajsnds
-=======
-trung beo dep trai 
->>>>>>> develop
+
+trung beo dep trai
